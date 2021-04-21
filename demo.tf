@@ -127,7 +127,6 @@ resource "aws_instance" "terraform-instance" {
   ami                  = "ami-09558250a3419e7d0"
   instance_type        = "t2.micro"
   availability_zone    = "us-east-2a"
-  key_name             = "KanyPublicKey"
 
   network_interface {
     device_index          = 0
